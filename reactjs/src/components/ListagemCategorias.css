@@ -1,0 +1,75 @@
+.filtro-container {
+  max-width: auto; 
+  margin: auto;
+  padding: 10px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.filtro-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.filtro-container label {
+  font-weight: bold;
+  color: #555;
+}
+
+.filtro-container input,
+.filtro-container select {
+  width: calc(100% - 20px); 
+  padding: 5px; 
+  margin-bottom: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.filtro-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px; 
+  transition: background-color 0.3s ease;
+  margin-right: 5px;
+}
+
+.filtro-container button:hover {
+  background-color: #0056b3;
+}
+
+.filtro-container ul {
+  padding: 0;
+  margin: 0;
+}
+
+.filtro-container li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 6px; 
+  text-align: left;
+}
+
+th {
+  background-color: rgb(0, 175, 233);
+  color: white;
+}
